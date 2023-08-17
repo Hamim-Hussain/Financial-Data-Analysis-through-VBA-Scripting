@@ -5,6 +5,11 @@
 This project involves delving into dynamically generated stock market data to extract insights. I have crafted a script that computes yearly changes, percentage variations, and cumulative stock volumes, while also identifying stocks with the most substantial percentage fluctuations and trading volumes. As I progressed, I adapted my VBA script for concurrent execution across multiple worksheets, magnifying the impact of automation. The result? Uncovering invaluable financial insights and revolutionising my approach to data manipulation and interpretation.
 
 ## Source of Data
+Within Resources Folder:
+* Multiple_year_stock_data.xlsx
+
+## Findings
+
 
 Background
 You are well on your way to becoming a programmer and Excel expert! In this homework assignment, you will use VBA scripting to analyze generated stock market data.
