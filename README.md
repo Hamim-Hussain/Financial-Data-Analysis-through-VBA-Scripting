@@ -10,6 +10,11 @@ Within Resources Folder:
 
 ## Findings
 
+![2018](images/2018.PNG)
+
+![2019](images/2019.PNG)
+
+![2020](images/2020.PNG)
 
 Background
 You are well on your way to becoming a programmer and Excel expert! In this homework assignment, you will use VBA scripting to analyze generated stock market data.
