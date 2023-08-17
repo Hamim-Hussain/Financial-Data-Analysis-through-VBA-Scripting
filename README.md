@@ -1,6 +1,5 @@
 # Exploring Financial Data Analysis through VBA Scripting: Unveiling Stock Market Insights
-
-<img src="images/stockmarket.JPG" width="1000" height="491">
+<img src="images/stockmarket.jpg" width="1000" height="491">
 
 Background
 You are well on your way to becoming a programmer and Excel expert! In this homework assignment, you will use VBA scripting to analyze generated stock market data.
