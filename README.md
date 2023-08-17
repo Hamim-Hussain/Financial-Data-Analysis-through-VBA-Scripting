@@ -10,10 +10,9 @@ Within Resources Folder:
 
 ## Findings
 
+The table represent a collection of stock data for various tickers (stock symbols) over the course of the year 2018. The data includes the opening, high, low, and closing prices for each ticker on specific dates, along with the corresponding trading volume. Yearly changes and percentage changes for each ticker have been calculated, showing how the closing price differs from the opening price at the beginning of the year. The table identifies the stock with the greatest percentage increase, greatest percentage decrease, and greatest total volume among the listed tickers.
+
 ### 2018
-The table seems to represent a collection of stock data for various tickers (stock symbols) over the course of the year 2018.
-The data includes the opening, high, low, and closing prices for each ticker on specific dates, along with the corresponding trading volume.
-Yearly changes and percentage changes for each ticker have been calculated, showing how the closing price differs from the opening price at the beginning of the year.The table identifies the stock with the greatest percentage increase, greatest percentage decrease, and greatest total volume among the listed tickers.
 
 ![2018](images/2018.PNG)
 
