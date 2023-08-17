@@ -10,87 +10,29 @@ Within Resources Folder:
 
 ## Findings
 
+### 2018
+The table seems to represent a collection of stock data for various tickers (stock symbols) over the course of the year 2018.
+The data includes the opening, high, low, and closing prices for each ticker on specific dates, along with the corresponding trading volume.
+Yearly changes and percentage changes for each ticker have been calculated, showing how the closing price differs from the opening price at the beginning of the year.The table identifies the stock with the greatest percentage increase, greatest percentage decrease, and greatest total volume among the listed tickers.
+
 ![2018](images/2018.PNG)
+
+1. **Ticker 'DM' experienced a remarkable 5581.16% increase**: This means that the closing price of the stock at the end of the year was significantly higher (approximately 55.81 times higher) than the opening price at the beginning of the year. Such a massive increase suggests that the stock had a highly positive performance during the year, possibly due to factors such as strong financial results, market trends, or positive news.
+2. **Ticker 'CBO' faced a significant 95.73% decrease**: This indicates that the closing price of the stock dropped significantly (roughly 95.73%) compared to its opening price at the beginning of the year. A decrease of this magnitude suggests that the stock encountered significant challenges or negative market sentiment throughout the year, which might have been influenced by factors like poor financial performance, industry trends, or unfavorable news.
+3. **Ticker 'BAC' had the highest total stock volume, amounting to 21,595,474,700**: The total stock volume refers to the total number of shares traded for a particular stock during the year. A higher total volume often signifies increased investor interest and activity in that stock. In this case, 'BAC' had the highest trading activity among the listed tickers, which could indicate a relatively high level of market liquidity for this stock.
+
+### 2019
 
 ![2019](images/2019.PNG)
 
+### 2020
+
 ![2020](images/2020.PNG)
 
-Background
-You are well on your way to becoming a programmer and Excel expert! In this homework assignment, you will use VBA scripting to analyze generated stock market data.
+## Data Dictionary 
+1. **Yearly Changes and Percentage Changes**: The data includes columns showcasing the opening and closing prices for various stocks on specific dates. For each stock, the yearly change is calculated as the difference between the opening price at the beginning of the year and the closing price at the end of that year. The percentage change is calculated by comparing these two prices and expressing the change as a percentage of the opening price.
+2. **Total Stock Volume**: The data also includes the total stock volume for each stock, which represents the cumulative trading volume over the course of the year. This value indicates the total number of shares traded for a particular stock.
+3. **Greatest % Increase and Decrease**: The sheet presents the stocks with the greatest percentage increase and decrease in their prices over the year. These values are important indicators of the most significant shifts in stock values.
+4. **Greatest Total Volume**: The stock with the greatest total trading volume throughout the year is identified. This metric helps to understand which stock had the highest overall trading activity.
 
-Before You Begin
-Create a new repository for this project called VBA-challenge. Do not add this assignment to an existing repository.
-
-Inside the new repository that you just created, add any VBA files that you use for this assignment. These will be the main scripts to run for each analysis.
-
-Module 2 Challenge filesLinks to an external site.
-
-Instructions
-Create a script that loops through all the stocks for one year and outputs the following information:
-
-The ticker symbol
-
-Yearly change from the opening price at the beginning of a given year to the closing price at the end of that year.
-
-The percentage change from the opening price at the beginning of a given year to the closing price at the end of that year.
-
-Add functionality to your script to return the stock with the "Greatest % increase", "Greatest % decrease", and "Greatest total volume". The solution should match the following image:
-
-Make the appropriate adjustments to your VBA script to enable it to run on every worksheet (that is, every year) at once.
-
-NOTE
-Make sure to use conditional formatting that will highlight positive change in green and negative change in red
-
-Other Considerations
-Use the sheet alphabetical_testing.xlsx while developing your code. This dataset is smaller and will allow you to test faster. Your code should run on this file in under 3 to 5 minutes.
-
-Make sure that the script acts the same on every sheet. The joy of VBA is that it takes the tediousness out of repetitive tasks with the click of a button.
-
-Requirements
-Retrieval of Data (20 points)
-The script loops through one year of stock data and reads/ stores all of the following values from each row:
-
-ticker symbol (5 points)
-
-volume of stock (5 points)
-
-open price (5 points)
-
-close price (5 points)
-
-Column Creation (10 points)
-On the same worksheet as the raw data, or on a new worksheet all columns were correctly created for:
-
-ticker symbol (2.5 points)
-
-total stock volume (2.5 points)
-
-yearly change ($) (2.5 points)
-
-percent change (2.5 points)
-
-Conditional Formatting (20 points)
-Conditional formatting is applied correctly and appropriately to the yearly change column (10 points)
-
-Conditional formatting is applied correctly and appropriately to the percent change column (10 points)
-
-Calculated Values (15 points)
-All three of the following values are calculated correctly and displayed in the output:
-
-Greatest % Increase (5 points)
-
-Greatest % Decrease (5 points)
-
-Greatest Total Volume (5 points)
-
-Looping Across Worksheet (20 points)
-The VBA script can run on all sheets successfully.
-GitHub/GitLab Submission (15 points)
-All three of the following are uploaded to GitHub/GitLab:
-
-Screenshots of the results (5 points)
-
-Separate VBA script files (5 points)
-
-README file (5 points)
+By analysing this data, we can uncover insights into the performance of various stocks during the years 2018, 2019 and 2020.
